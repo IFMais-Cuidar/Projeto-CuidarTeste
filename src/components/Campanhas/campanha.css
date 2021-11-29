@@ -1,0 +1,27 @@
+.campanha_item {
+    background: white;   
+}
+
+.campanha_row {
+    margin-bottom: 20px;   
+}
+
+.campanha_row button{
+    font-size: 2.5rem;
+    margin-right: 1rem;
+}
+
+.campanha_row:last-child {
+    margin-bottom: 0px;   
+}
+
+.campanha_item h4 {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.capaCampanha {
+    width: 64rem;
+    height: 30rem;
+}

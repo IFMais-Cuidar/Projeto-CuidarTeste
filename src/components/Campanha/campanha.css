@@ -1,0 +1,67 @@
+.containerCampanha {
+    
+  /*  height: 100vh;*/
+    margin-top: 51px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+/* Deletar css's abaixo */
+.containerCampanha h1{
+    
+   padding-top: 3rem;
+
+}
+
+.campanhaPrincipal {
+
+    height: 100%;    
+    padding-top: 5rem;  
+
+}
+
+ 
+.campanhaImagem {
+    
+    height:40%; 
+
+}
+
+
+.campanhaImagem img {
+    border-radius: 10%;    
+}
+
+.camposCampanha {
+
+    height: 40%;   
+    
+}
+
+.camposCampanha p {
+    margin-top: 1rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    font-size: 1,7rem;
+}
+
+.camposCampanha span {    
+    font-weight: 400; 
+    font-size: 1,5rem;   
+}
+
+
+/*
+.campanhaDoacao {
+
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+} */

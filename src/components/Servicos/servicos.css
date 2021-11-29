@@ -1,0 +1,17 @@
+.servicos_item * {
+    text-align: center;
+}
+
+.servicos_item h4 {
+    margin-top: 30px;  
+    font-size: 25px;
+}
+
+.servicos_btn_todososservicos {
+    margin-top: 25px;   
+}
+
+.imagemServico{
+    width: 60rem;
+    height: 30rem;
+}

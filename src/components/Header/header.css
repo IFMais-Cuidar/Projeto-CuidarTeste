@@ -1,0 +1,25 @@
+.carousel {    
+    margin-top: 51px;
+}
+
+.divslider {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* background: url(../../assets/imgs/bgslider.png); */ 
+    min-height: 630px;
+}
+
+.BrainhubCarousel__arrows:hover:enabled {
+    background-color: gray;
+}
+
+.BrainhubCarousel__arrowLeft {
+    margin-left: 10%;   
+    background-color: black;     
+}
+
+.BrainhubCarousel__arrowRight {
+    margin-right: 10%;
+    background-color: black; 
+}
+

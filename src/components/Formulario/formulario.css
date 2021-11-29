@@ -1,0 +1,33 @@
+.labelDoacao {
+    margin-right: 1rem;
+    padding-left: 1rem;
+}
+
+.formDoacao textarea{
+    height: 170px !important;
+}
+
+.formDoacao .aviso{
+    padding: 15px;
+}
+
+.iconeDoacao {
+    width:60px;
+    height:40px;
+}
+
+.opcaoSelecionada{
+
+    background-color: #e6e6e6;
+    border-color: #333333
+    
+}
+
+.doacaoSalvarDados {
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+.QrCode{
+    text-align: center;
+}
