@@ -61,6 +61,16 @@ export function Header({dados}){
                         ]}
                         animationSpeed={1000}
                         breakpoints={{
+                            640: {
+                                plugins: [
+                                 {
+                                   resolve: autoplayPlugin,//slidesToShowPlugin,
+                                   options: {
+                                    numberOfSlides: 1
+                                   }
+                                 },
+                               ]
+                              },
                             900: {
                               plugins: [
                                {
