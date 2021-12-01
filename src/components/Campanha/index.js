@@ -53,9 +53,9 @@ export function Campanha({dados, children}) {
                             <h1>Descrição:</h1>                                
 
                             {doc.data.descricaocampanha.map(
-                                i => {
+                                (i, index) => {
                                     return(
-                                        <p>{i.text}</p>
+                                        <p key={index}>{i.text}</p>
                                     )
                                 }
                             )}

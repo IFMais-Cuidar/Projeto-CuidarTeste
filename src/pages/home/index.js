@@ -3,20 +3,20 @@ import Prismic from '@prismicio/client';
 
 import { NavBar } from "../../components/NavBar";
 
- import { Header } from "../../components/Header";
-// import { Servicos } from "../../components/Servicos";
-// import { Campanhas } from "../../components/Campanhas";
-// import { QuemSomos } from "../../components/QuemSomos";
-// import { Localizacao } from "../../components/Localizacao";
-// import { Contato } from "../../components/Contato";
+import { Header } from "../../components/Header";
+import { Servicos } from "../../components/Servicos";
+import { Campanhas } from "../../components/Campanhas";
+import { QuemSomos } from "../../components/QuemSomos";
+import { Localizacao } from "../../components/Localizacao";
+import { Contato } from "../../components/Contato";
 
-// import { Footer } from "../../components/Footer";
+import { Footer } from "../../components/Footer";
 
- import { Loading } from "../../components/Loading";
+import { Loading } from "../../components/Loading";
 
 function Home() {
 
-   const [doc, setDocData] = useState(null);
+  const [doc, setDocData] = useState(null);
   const apiEndpoint = process.env.REACT_APP_API_PRISMIC;
   const Client = Prismic.client(apiEndpoint);
 
@@ -36,29 +36,10 @@ function Home() {
   },[]); 
 
   return (
-<>{
+    <>{
       doc ?
         <>
-          
-          <NavBar dados={doc} /> 
-          <Header dados={doc} />
-        </>
-          :
-        <Loading />
-    }
-      
-    </>
-   
-  );
-}
-
-export default Home;
-
-/*
- <>{
-      doc ?
-        <>
-          
+          {/* {console.log(doc.data)} */}
           <NavBar dados={doc} /> 
           <Header dados={doc} />
           <Campanhas dados={doc} todas={false} />
@@ -73,4 +54,7 @@ export default Home;
     }
       
     </>
-*/
+  );
+}
+
+export default Home;
