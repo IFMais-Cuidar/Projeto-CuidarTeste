@@ -60,6 +60,18 @@ export function Header({dados}){
                             },                    
                         ]}
                         animationSpeed={1000}
+                        breakpoints={{
+                            900: {
+                              plugins: [
+                               {
+                                 resolve: slidesToShowPlugin,
+                                 options: {
+                                  numberOfSlides: 1
+                                 }
+                               },
+                             ]
+                            }
+                          }}
                     >
                         <img src={dados.data.imagemcapa1.url} alt={dados.data.imagemcapa1.alt}/>
                         <img src={dados.data.imagemcapa2.url} alt={dados.data.imagemcapa2.alt}/>
