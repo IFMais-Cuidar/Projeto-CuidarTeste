@@ -64,7 +64,7 @@ export function Header({dados}){
                             900: {
                               plugins: [
                                {
-                                 resolve: slidesToShowPlugin,
+                                 resolve: autoplayPlugin,//slidesToShowPlugin,
                                  options: {
                                   numberOfSlides: 1
                                  }
