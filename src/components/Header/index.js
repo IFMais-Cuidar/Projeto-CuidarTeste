@@ -23,6 +23,7 @@ export function Header({dados}){
                                 resolve: autoplayPlugin,
                                 options: {
                                     interval: 5000,
+                                    numberOfSlides: 1
                                 }
                             },                    
                         ]}
@@ -31,7 +32,7 @@ export function Header({dados}){
                             900: {
                               plugins: [
                                {
-                                 resolve: slidesToShowPlugin,
+                                 resolve: autoplayPlugin,//slidesToShowPlugin,
                                  options: {
                                   numberOfSlides: 1
                                  }
@@ -56,6 +57,7 @@ export function Header({dados}){
                                 resolve: autoplayPlugin,
                                 options: {
                                     interval: 5000,
+                                    numberOfSlides: 1
                                 }
                             },                    
                         ]}
