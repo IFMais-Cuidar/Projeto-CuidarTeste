@@ -20,7 +20,7 @@ export function Header({dados}){
                             'arrows',
                             'infinite',
                             {
-                                resolve: autoplayPlugin,
+                                resolve: slidesToShowPlugin,
                                 options: {
                                     interval: 5000,
                                     numberOfSlides: 1
@@ -32,7 +32,7 @@ export function Header({dados}){
                             900: {
                               plugins: [
                                {
-                                 resolve: autoplayPlugin,//slidesToShowPlugin,
+                                 resolve: slidesToShowPlugin,//slidesToShowPlugin,
                                  options: {
                                   numberOfSlides: 1
                                  }
@@ -54,7 +54,7 @@ export function Header({dados}){
                             'arrows',
                             'infinite',
                             {
-                                resolve: autoplayPlugin,
+                                resolve: slidesToShowPlugin,
                                 options: {
                                     interval: 5000,
                                     numberOfSlides: 1
@@ -66,7 +66,7 @@ export function Header({dados}){
                             640: {
                                 plugins: [
                                  {
-                                   resolve: autoplayPlugin,//slidesToShowPlugin,
+                                   resolve: slidesToShowPlugin,//slidesToShowPlugin,
                                    options: {
                                     numberOfSlides: 1
                                    }
@@ -76,7 +76,7 @@ export function Header({dados}){
                             900: {
                               plugins: [
                                {
-                                 resolve: autoplayPlugin,//slidesToShowPlugin,
+                                 resolve: slidesToShowPlugin,//slidesToShowPlugin,
                                  options: {
                                   numberOfSlides: 1
                                  }
